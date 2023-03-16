@@ -1,4 +1,8 @@
 ---
+import "../css/stylesheet.css";
+import Card from "../components/Card.astro";
+import Navigation from "../components/Navigation.astro";
+import Button from "../components/Button.astro";
 ---
 
 <html lang="en">
@@ -10,6 +14,29 @@
 		<title>Astro</title>
 	</head>
 	<body>
+		<Navigation />
 		<h1>Astro</h1>
+		<p>
+			Anim Lorem nisi pariatur irure fugiat sit ex commodo labore occaecat
+			exercitation esse quis. Elit excepteur magna in eiusmod velit mollit
+			excepteur laborum est officia sint ad ullamco sit. Commodo sunt
+			dolor mollit pariatur ipsum minim magna laborum aute fugiat. Et
+			officia labore qui elit id. Consectetur quis laboris consectetur
+			nulla cupidatat sint eiusmod non. Id duis qui magna nisi quis et
+			amet officia est ut officia fugiat consectetur.
+		</p>
+		<main>
+			<Button variant="primary" size="small">TEXT</Button>
+			<Button variant="secondary" size="medium">TEXT</Button>
+			<Button variant="secondary" size="large">TEXT</Button>
+			<!-- <Card header="Hej Verden">
+				<img src="https://source.unsplash.com/random" alt="" />
+				<button>Klik her</button>
+			</Card>
+			<Card header="Hej Verden">
+				<button>Klik her</button>
+				<img src="https://source.unsplash.com/random" alt="" />
+			</Card> -->
+		</main>
 	</body>
 </html>
